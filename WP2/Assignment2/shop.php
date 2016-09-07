@@ -14,11 +14,14 @@ html, body {
 }
 header {
 	font-size: 300%;
-	font-weight: lighter;
+	font-weight: bold;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	background: white;
+	background-image:url("resources/jt.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-color: rgb(173,215,208);
 	padding: 50px;
- text-align: center background: url("test2.png");
+	text-align: center background: url("test2.png");
 	position: static;
 }
 header * {
@@ -75,17 +78,17 @@ footer * {
 <header> 
 <div>
 <a href="https://www.facebook.com/officialjoshthomas">
-  <img src="fb.png" alt='FB' style="width:42px;height:42px;border:0;">
+  <img src="resources/fb.png" alt='FB' style="width:42px;height:42px;border:0;">
 </a>
 <a href="http://twitter.com/joshthomas87">
-  <img src="twit.png" alt="TWIT" style="width:42px;height:42px;border:0;">
+  <img src="resources/twit.png" alt="TWIT" style="width:42px;height:42px;border:0;">
 </a>
 <a href="http://instagram.com/joshthomas87/">
-  <img src="insta.png" alt="INSTA" style="width:42px;height:42px;border:0;">
+  <img src="resources/insta.png" alt="INSTA" style="width:42px;height:42px;border:0;">
 </a>
 </div>
 
-<a href="index.php"  style="text-decoration:none;"><font color="#ED8C8E">Josh Thomas</font></a> 
+<a href="index.php"  style="text-decoration:none;"><font color="#F2CECE">Josh Thomas</font></a> 
 
 </header>
 <nav> <a href="index.php" style="text-decoration:none;"><font color="white">Home</font></a> | <a href="contact.php"  style="text-decoration:none;"><font color="white">Contact</font></a> | <a href="shop.php" style="text-decoration:underline;"><font color="white">Shop</font></a> </nav>
