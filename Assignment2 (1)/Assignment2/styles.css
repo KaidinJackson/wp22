@@ -1,0 +1,115 @@
+@import url("webfonts/Helvetica_Light/stylesheet.css");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  background-image: url("resources/jt.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: rgb(173,215,208);
+  padding: 50px;
+}
+header * {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center
+}
+header img {
+  float: right;
+  text-align: center
+}
+main {
+	background: white;
+	padding-top: 30px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+	font-family: "Helvetica Light";
+	text-align: center;
+	text-shadow: 0px 0px;
+	font-style: normal;
+	font-weight: 100;
+}
+nav, footer {
+  background-color: #FF9899;
+  padding: 20px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: bold;
+  font-colour: white;
+  color: #FFFFFF;
+  text-align: center
+}
+footer * {
+  vertical-align: middle;
+  
+}
+.product-display{
+	white-space: nowrap;
+}
+.product-container{
+	display:inline-block;
+	*display:inline; /* for IE7 */
+	*zoom:1; /* for IE7 */
+	min-width: 500px;
+	min-height: 198px;
+	padding-top: 20px;
+	padding-left:20px;
+	padding-bottom:30px;
+	padding-right:20px;
+	border-style: solid;
+	border-width: .9px;
+	border-color: rgba(214,214,214, 0.5);
+	white-space: normal;
+}
+.product-price-container{
+	display:inline-block;
+	*display:inline; /* for IE7 */
+	*zoom:1; /* for IE7 */
+	width:200px;
+	height: 198px;
+	padding-top: 20px;
+	padding-left:20px;
+	padding-bottom:30px;
+	padding-right:20px;
+	border-style: solid;
+	border-width: .9px;
+	border-color: rgba(214,214,214, 0.5);
+	white-space: normal;
+}
+.product-image-container{
+	float: left;
+}
+
+.product-info{
+	float: left;
+	display:inline-block;
+	text-align: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	width: 300px;
+	white-space:normal;
+}
+.product-more-info{
+	float: left;
+	display: inline-block;
+	text-align: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	white-space: normal;
+	
+}
+
+
+
